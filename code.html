@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Agency - Transforming Businesses with AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#00FFFF", 
+              "background-light": "#F5F5F5",
+              "background-dark": "#111111",
+              "text-primary-light": "#111111",
+              "text-primary-dark": "#F5F5F5",
+              "text-secondary-light": "#555555",
+              "text-secondary-dark": "#888888",
+              "border-light": "#DDDDDD",
+              "border-dark": "#333333",
+              "surface-light": "#FFFFFF",
+              "surface-dark": "#1A1A1A",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-primary-light dark:text-text-primary-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Sticky Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark px-6 md:px-10 lg:px-20 py-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_6_535"><rect fill="white" height="48" width="48"></rect></clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-text-primary-light dark:text-text-primary-dark text-xl font-bold leading-tight tracking-[-0.015em]">Aether AI</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary text-sm font-medium leading-normal transition-colors" href="#services">Services</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary text-sm font-medium leading-normal transition-colors" href="#process">Process</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary text-sm font-medium leading-normal transition-colors" href="#work">Work</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary text-sm font-medium leading-normal transition-colors" href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+<main class="flex flex-col items-center">
+<div class="layout-content-container flex flex-col w-full max-w-5xl px-6 md:px-10">
+<!-- Hero Section -->
+<section class="flex flex-col items-center justify-center text-center py-24 md:py-32">
+<div class="flex flex-col gap-4">
+<h1 class="text-text-primary-light dark:text-text-primary-dark text-4xl md:text-6xl font-black leading-tight tracking-tighter">
+                            Transform Your Business with Artificial Intelligence
+                        </h1>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-lg md:text-xl font-normal leading-normal max-w-3xl mx-auto">
+                            We build custom AI solutions that drive growth, efficiency, and innovation.
+                        </p>
+</div>
+<a class="mt-8 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105" href="#contact">
+<span class="truncate">Schedule a Demo</span>
+</a>
+</section>
+<!-- Value Proposition (FeatureSection) -->
+<section class="flex flex-col gap-10 py-16 md:py-24" id="value-prop">
+<div class="flex flex-col gap-4 text-center">
+<h2 class="text-text-primary-light dark:text-text-primary-dark tracking-tight text-3xl md:text-4xl font-bold leading-tight">
+                            Why Partner With Us?
+                        </h2>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-base md:text-lg font-normal leading-normal max-w-3xl mx-auto">
+                            We're not just developers; we're strategic partners dedicated to your success. Our bespoke AI solutions are designed to integrate seamlessly and deliver measurable results.
+                        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-1 gap-4 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-6 flex-col text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">shapes</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight">Bespoke Solutions</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Custom-built AI models tailored to your unique business challenges.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-6 flex-col text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">groups</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight">Expert Team</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">A dedicated team of data scientists and engineers at your service.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-6 flex-col text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">monitoring</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight">Measurable ROI</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Solutions focused on delivering tangible, impactful business outcomes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Overview (ImageGrid) -->
+<section class="flex flex-col gap-8 py-16 md:py-24 text-center" id="services">
+<h2 class="text-text-primary-light dark:text-text-primary-dark text-3xl md:text-4xl font-bold leading-tight tracking-tight">Our Services</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Abstract neural network visualization" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRd8mUp9vv3AtzXjZBC4Vp9XGtQT5gp_Ho1MLCMic_6ip1KuHF-I44elBpQBR-c6Q7mNKyM8hEPT2F0iSbqs03QPR9SBwKJeqi2PAu34_QIU4fFBWLexT44L71mKMoe9N_qyL0sTgV5JgPju_rkPN5Y64oo881TUrJ3r9Qd0QN4DlXZ0nWSZax-9jy4nMQcYyld4dXwQDTwoGIoRcgo_XsGgLa57Znki7tf6_rSTmA-1Sa20fvxf_fyPp5qMqHn89UF3lGtO9b0zY");'></div>
+<div>
+<p class="text-text-primary-light dark:text-text-primary-dark text-lg font-medium leading-normal">AI Strategy</p>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Crafting a roadmap for AI integration that aligns with your business goals.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Geometric patterns representing data models" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDOL_IHBNiR7gLFYNh3n1wzxXggW9BpEPSBfYGej3LJovmiIGENJTQsmEIC3h1TUmgiD94YvFRiO2z-V8hKsRErs8obea8byHtniNq2H1za0gQ58TfBf8C8LdtXK013dM0YBI6fVijydM1_hFBg_KUZ4qLIWrrz2BPaLvXShc6t9dqk_Q-ZxoGaUZSKUMCgxOvGUtjGiBdmI2ZMJaXTRRzl_nRdvV30iSMrnc3JVTm0z5OmDt4ISvSlmJmtRJwszbdiRKJ5zRKGr94");'></div>
+<div>
+<p class="text-text-primary-light dark:text-text-primary-dark text-lg font-medium leading-normal">Machine Learning</p>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Developing predictive and generative models to unlock new capabilities.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Flowing lines symbolizing data pipelines" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDy4yn1uF6A2GpBs1FcibK7VGkR9XcLkt6GPNYPWjBbxrxobdtm5DEJpmRfMo0pZ2mx4sGZRfzZ3HcnTFRki0ZbkggHv4Sct5dBXCobVtO4PQfa3LACUNpD5iMaykrKuiAZdpMi9O3onNajfUTMqv-vIyb8KSlaUa5J4YNRz8r44QVDsQnq35b4456LYJWnvCyOg8ZhUR6C18mNzAYQY3-deNOEgqx2V0l8TjvWwG0oua-DJpzVKvTRTRoLK7S4Hq21ca5Gs7TZ94Q");'></div>
+<div>
+<p class="text-text-primary-light dark:text-text-primary-dark text-lg font-medium leading-normal">Data Automation</p>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm font-normal leading-normal">Automating complex data pipelines to improve efficiency and accuracy.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- How We Work -->
+<section class="py-16 md:py-24" id="process">
+<div class="text-center mb-12">
+<h2 class="text-text-primary-light dark:text-text-primary-dark text-3xl md:text-4xl font-bold leading-tight tracking-tight">How We Work</h2>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-base md:text-lg font-normal leading-normal max-w-3xl mx-auto mt-4">A streamlined process to ensure clarity, collaboration, and exceptional outcomes from concept to scale.</p>
+</div>
+<div class="relative flex flex-col md:flex-row justify-between gap-8 md:gap-4">
+<!-- Dashed line for desktop -->
+<div class="absolute top-8 left-8 md:top-1/2 md:left-0 w-px md:w-full h-[calc(100%-4rem)] md:h-px border-l-2 md:border-t-2 border-dashed border-border-light dark:border-border-dark -translate-y-1/2"></div>
+<div class="relative flex-1 flex md:flex-col items-start md:items-center text-left md:text-center gap-4 p-4">
+<div class="flex-shrink-0 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-surface-light dark:bg-surface-dark border-2 border-border-light dark:border-border-dark font-bold text-2xl text-primary">01</div>
+<div>
+<h3 class="font-bold text-lg text-text-primary-light dark:text-text-primary-dark">Discovery</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">We dive deep into your business to understand your challenges and identify opportunities for AI.</p>
+</div>
+</div>
+<div class="relative flex-1 flex md:flex-col items-start md:items-center text-left md:text-center gap-4 p-4">
+<div class="flex-shrink-0 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-surface-light dark:bg-surface-dark border-2 border-border-light dark:border-border-dark font-bold text-2xl text-primary">02</div>
+<div>
+<h3 class="font-bold text-lg text-text-primary-light dark:text-text-primary-dark">Prototyping</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">We build and test a proof-of-concept to validate our approach and demonstrate potential value.</p>
+</div>
+</div>
+<div class="relative flex-1 flex md:flex-col items-start md:items-center text-left md:text-center gap-4 p-4">
+<div class="flex-shrink-0 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-surface-light dark:bg-surface-dark border-2 border-border-light dark:border-border-dark font-bold text-2xl text-primary">03</div>
+<div>
+<h3 class="font-bold text-lg text-text-primary-light dark:text-text-primary-dark">Implementation</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">We integrate the validated AI solution seamlessly into your existing workflows and systems.</p>
+</div>
+</div>
+<div class="relative flex-1 flex md:flex-col items-start md:items-center text-left md:text-center gap-4 p-4">
+<div class="flex-shrink-0 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-surface-light dark:bg-surface-dark border-2 border-border-light dark:border-border-dark font-bold text-2xl text-primary">04</div>
+<div>
+<h3 class="font-bold text-lg text-text-primary-light dark:text-text-primary-dark">Scaling</h3>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">We monitor performance, provide ongoing support, and scale the solution as your business grows.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Metrics Strip -->
+<section class="py-16 md:py-20 bg-surface-light dark:bg-surface-dark rounded-xl">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-border-light dark:divide-border-dark px-6">
+<div class="flex flex-col gap-2 pt-8 md:pt-0">
+<p class="text-5xl font-black text-primary">95%</p>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Client Satisfaction</p>
+</div>
+<div class="flex flex-col gap-2 pt-8 md:pt-0">
+<p class="text-5xl font-black text-primary">3x</p>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Average ROI</p>
+</div>
+<div class="flex flex-col gap-2 pt-8 md:pt-0">
+<p class="text-5xl font-black text-primary">50+</p>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Projects Delivered</p>
+</div>
+</div>
+</section>
+<!-- Featured Case Studies -->
+<section class="flex flex-col gap-8 py-16 md:py-24 text-center" id="work">
+<h2 class="text-text-primary-light dark:text-text-primary-dark text-3xl md:text-4xl font-bold leading-tight tracking-tight">Featured Work</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+<div class="flex flex-col gap-4 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-6">
+<p class="text-sm font-bold text-primary">FINTECH</p>
+<h3 class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark">Automated Fraud Detection</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm">Developed an ML model that reduced fraudulent transactions by 60%, saving the client millions annually.</p>
+<a class="text-sm font-bold text-primary hover:underline" href="#">Read Case Study →</a>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark p-6">
+<p class="text-sm font-bold text-primary">E-COMMERCE</p>
+<h3 class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark">Personalized Recommendations</h3>
+<p class="text-text-secondary-light dark:text-text-secondary-dark text-sm">Implemented a recommendation engine that increased user engagement by 25% and average order value by 15%.</p>
+<a class="text-sm font-bold text-primary hover:underline" href="#">Read Case Study →</a>
+</div>
+</div>
+</section>
+<!-- Lead Capture -->
+<section class="py-16 md:py-24 text-center" id="contact">
+<div class="max-w-xl mx-auto">
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight text-text-primary-light dark:text-text-primary-dark">Let's Build The Future.</h2>
+<p class="mt-4 text-text-secondary-light dark:text-text-secondary-dark">Ready to unlock the power of AI for your business? Get in touch with our experts today.</p>
+<form class="mt-8 space-y-4 text-left">
+<div>
+<label class="sr-only" for="name">Name</label>
+<input class="w-full rounded-md border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark text-text-primary-light dark:text-text-primary-dark placeholder:text-text-secondary-light dark:placeholder:text-text-secondary-dark focus:border-primary focus:ring-primary" id="name" name="name" placeholder="Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">Company Email</label>
+<input class="w-full rounded-md border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark text-text-primary-light dark:text-text-primary-dark placeholder:text-text-secondary-light dark:placeholder:text-text-secondary-dark focus:border-primary focus:ring-primary" id="email" name="email" placeholder="Company Email" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="message">Message</label>
+<textarea class="w-full rounded-md border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark text-text-primary-light dark:text-text-primary-dark placeholder:text-text-secondary-light dark:placeholder:text-text-secondary-dark focus:border-primary focus:ring-primary" id="message" name="message" placeholder="How can we help?" rows="4"></textarea>
+</div>
+<button class="w-full flex items-center justify-center rounded-lg h-12 px-5 bg-primary text-background-dark text-base font-bold tracking-[0.015em] transition-transform hover:scale-105" type="submit">Submit Inquiry</button>
+</form>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-border-light dark:border-border-dark">
+<div class="max-w-5xl mx-auto px-6 md:px-10 py-12">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_footer_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_footer_535"><rect fill="white" height="48" width="48"></rect></clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-text-primary-light dark:text-text-primary-dark text-xl font-bold">Aether AI</h2>
+</div>
+<div class="flex gap-6 items-center">
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors" href="#">Twitter</a>
+</div>
+</div>
+<div class="mt-8 text-center text-sm text-text-secondary-light dark:text-text-secondary-dark">
+<p>© 2024 Aether AI. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
